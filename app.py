@@ -4,13 +4,13 @@ from ui import show_header, show_image
 import os
 
 # ========================================
-# 🔧 Configuration
+#  Configuration
 # ========================================
 MODEL_DIR = "models"
 MODEL_PATH = os.path.join(MODEL_DIR, "efficientnet_b3_full_ai_image_classifier.pt")
 
 # ========================================
-# 🚀 Streamlit App
+#  Streamlit App
 # ========================================
 def main():
     st.set_page_config(page_title="AI Image Detector", page_icon="🧠", layout="centered")

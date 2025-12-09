@@ -7,6 +7,7 @@ from io import BytesIO
 
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
+
 # 🔹 Preprocessing (same as training)
 transform = transforms.Compose([
     transforms.Resize((300, 300)),
